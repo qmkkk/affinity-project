@@ -1,1 +1,26 @@
+experiment:
+  name: baseline-placeholder
+  seed: 42
 
+paths:
+  # Replace with real paths when pipeline is implemented.
+  dataset: data/placeholder.csv
+  outputs: outputs/
+  checkpoint: outputs/model.pt
+
+data:
+  task: protein_drug_affinity
+  split: validation
+
+model:
+  name: placeholder_model
+  params: {}
+
+train:
+  epochs: 1
+  batch_size: 8
+  learning_rate: 0.001
+
+eval:
+  batch_size: 8
+  metrics: []
