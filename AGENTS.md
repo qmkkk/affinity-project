@@ -9,5 +9,5 @@ Core rules:
 - Do not treat placeholder runs as evidence.
 - Prefer mechanism-driven ideas over generic capacity increase.
 - Keep diffs minimal and ablation-friendly.
-- Before starting major work, read `docs/codex_dta_research_prompts(1).md`.
+- Before starting major work, read `docs/codex_dta_research_prompts.md`.
 - Save reports under `reports/` and drafts under `drafts/`.
