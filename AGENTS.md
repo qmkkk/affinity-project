@@ -1,16 +1,13 @@
 # AGENTS.md
 
-## Goal
-This repository is for protein-drug affinity prediction experiments.
+This repository is for drug-target affinity prediction research on Davis/KIBA.
 
-## Rules
-- Prefer minimal changes.
-- Do not invent metrics or results.
-- Save summaries to reports/.
-- Save draft text to drafts/.
-- Before finishing, run the smallest valid test.
-
-## Commands
-- Train: python scripts/train.py --config configs/base.yaml
-- Eval: python scripts/eval.py --config configs/base.yaml
-- Test: pytest -q
+Core rules:
+- Focus on cold-start only.
+- Prefer cold-drug as primary and cold-target as secondary unless justified otherwise.
+- Never invent metrics, citations, or results.
+- Do not treat placeholder runs as evidence.
+- Prefer mechanism-driven ideas over generic capacity increase.
+- Keep diffs minimal and ablation-friendly.
+- Before starting major work, read `docs/codex_dta_research_prompts(1).md`.
+- Save reports under `reports/` and drafts under `drafts/`.
